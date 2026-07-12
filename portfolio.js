@@ -65,7 +65,7 @@ const projectsData = [
     title: "Franchissement de l'Yonne",
     category: "Photographie",
     mainCategory: "video-photo",
-    image: "images/1.JPEG",
+    image: "images/1.jpeg",
     description: "Photographies réalisées lors d'un franchissement de zone humide dans le département de l'Yonne, documentant un exercice militaire au cœur d'un paysage naturel.",
     meta: [
       { label: "Année", value: "2026" },
