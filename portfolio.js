@@ -225,6 +225,28 @@ const projectsData = [
   }
 ],
 },
+
+  {
+  title: "13 juillet",
+  category: "Dossier de presse",
+  mainCategory: "rédaction",
+  image: "images/DP13juillet.png", // Image de couverture du projet
+  description:
+    "Dans le cadre du 14 juillet, j’ai été chargée de la rédaction du dossier de presse, de sa validation ainsi que de son envoi à l’ensemble des journalistes de la zone afin de présenter le programme des cérémonies et des événements associés.",
+  meta: [
+    { label: "Année", value: "2025" },
+    { label: "Client", value: "Master 1 CPN" },
+    { label: "Format", value: "dossier de presse" },
+    { label: "Rôle", value: "dossier de presse" },
+  ],
+  tags: ["revue de presse", "rédaction", "master 1", "référencement"],
+  gallery: [
+  {
+    image: "images/DP13juillet.png", // une capture d'écran/vignette du PDF
+    link: "images/DP13juillet.pdf"
+  }
+],
+},
 ];
 
 // ── LIGHTBOX ───────────────────────────────────────────
