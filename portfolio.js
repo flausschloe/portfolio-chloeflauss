@@ -35,8 +35,8 @@ const projectsData = [
     tags: ["Événementiel", "Affiches", "Réseaux sociaux", "Relations presse"],
     gallery: [
       "images/exposant.jpg",
-      "images/invitation.jpg",
-      "images/marquepage.pdf",
+      "images/Invitation.jpg",
+      "images/marquepage.jpeg",
       "images/organisateur.jpg",
     ],
   },
@@ -65,7 +65,7 @@ const projectsData = [
     title: "Franchissement de l'Yonne",
     category: "Photographie",
     mainCategory: "video-photo",
-    image: "images/1.JPG",
+    image: "images/1.JPEG",
     description: "Photographies réalisées lors d'un franchissement de zone humide dans le département de l'Yonne, documentant un exercice militaire au cœur d'un paysage naturel.",
     meta: [
       { label: "Année", value: "2026" },
@@ -75,10 +75,10 @@ const projectsData = [
     ],
     tags: ["Photographie", "Reportage", "Extérieur", "Armée"],
     gallery: [
-      "images/1.JPG",
-      "images/2.JPG",
-      "images/3.JPG",
-      "images/4.JPG",
+      "images/1.JPEG",
+      "images/2.JPEG",
+      "images/3.JPEG",
+      "images/4.JPEG",
     ],
   },
    {
@@ -107,7 +107,7 @@ const projectsData = [
     title: "Festival des Paysages",
     category: "Édition",
     mainCategory: "graphique",
-    image: "images/GAP1.pdf",
+    image: "images/GAP1.jpeg",
     description: "Réalisé dans le cadre de mon stage à la Communauté de Communes de l'Alsace Bossue, ce projet consistait en la conception d'un magazine présentant l'ensemble des activités organisées par la Grange aux Paysages de Lorentzen pour son 17e Festival des Paysages.",
     meta: [
       { label: "Année", value: "2024" },
@@ -125,7 +125,7 @@ const projectsData = [
     title: "Été en Alsace Bossue",
     category: "Édition",
     mainCategory: "graphique",
-    image: "images/été.jpg",
+    image: "images/été.jpeg",
     description: "Réalisation de l'intégralité du magazine des activités estivales proposées sur le territoire de la Communauté de Communes d'Alsace Bossue, mis à disposition dans différents lieux touristiques. J'ai également décliné la première de couverture en affiches aux formats A3, A4 et A5 afin d'élargir sa diffusion dans les commerces et lors d'événements locaux.",
     meta: [
       { label: "Année", value: "2024" },
@@ -141,7 +141,7 @@ const projectsData = [
     title: "Balade en barque",
     category: "Édition",
     mainCategory: "graphique",
-    image: "images/Barque1.pdf",
+    image: "images/Barque1.jpeg",
     description: "Dans le cadre de mon stage à la Communauté de communes, j'ai participé à la refonte du prospectus des Balades en barques. J'ai contribué à la réalisation des prises de vue en collaboration avec le chargé de communication de la mairie, puis assuré la conception et la mise en page du document. Ce travail comprenait l'application de la charte graphique existante ainsi que l'intégration de nouveaux visuels et éléments de contenu afin de moderniser le support de communication.",
     meta: [
       { label: "Année", value: "2025" },
