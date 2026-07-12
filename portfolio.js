@@ -75,10 +75,10 @@ const projectsData = [
     ],
     tags: ["Photographie", "Reportage", "Extérieur", "Armée"],
     gallery: [
-      "images/1.JPEG",
-      "images/2.JPEG",
-      "images/3.JPEG",
-      "images/4.JPEG",
+      "images/1.jpeg",
+      "images/2.jpeg",
+      "images/3.jpeg",
+      "images/4.jpeg",
     ],
   },
    {
