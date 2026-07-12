@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chloé Folio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header id="header">
+      <nav>
+        <a href="#home" class="logo">
+          <img src="images/logo.png" alt="Logo" style="height: 36px; width: auto; vertical-align: middle" />
+          Chloé Folio
+        </a>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#CV">CV</a></li>
+          <li><a href="#projet">Projet</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#compétences">Compétences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+          <span></span><span></span><span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-shapes">
+        <div class="floating-accent accent-1"></div>
+        <div class="floating-accent accent-2"></div>
+        <div class="floating-accent accent-3"></div>
+      </div>
+      <div class="hero-content reveal">
+        <h1 class="hero-title">Portfolio</h1>
+        <p class="hero-subtitle">by Chloé Flauss</p>
+        <a href="#projet" class="cta-button">Voir mes projets</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="about-container reveal">
+        <div class="about-image">
+          <img src="images/moi.JPG" alt="Photographer" />
+        </div>
+        <div class="about-content">
+          <h2>À propos</h2>
+          <p>Passionnée par la communication et la création de contenus, je serai prochainement diplômée d'un Master Création de projets numériques à l'Université de Lorraine. Au fil de mon parcours, j'ai développé des compétences en communication digitale, audiovisuel, gestion de projets et conception graphique.</p>
+
+          <p>Mes différentes expériences en collectivités territoriales, en agence de communication ainsi qu'au sein du ministère des Armées m'ont permis de mener des projets variés : gestion des réseaux sociaux, création de supports print et numériques, réalisation de vidéos, couverture d'événements, photographie et coordination de projets de communication.</p>
+
+          <p>Curieuse, créative et polyvalente, j'aime concevoir des contenus qui ont du sens et apporter des réponses pertinentes aux enjeux de communication. À travers ce portfolio, je vous invite à découvrir une sélection de mes réalisations, reflet des compétences et de l'expérience que j'ai acquises au fil de mon parcours universitaire et professionnel.</p>
+          <div class="stats">
+  <div class="stat-item">
+    <div class="stat-number">3</div>
+    <div class="stat-label">Diplômes</div>
+  </div>
+
+  <div class="stat-item">
+    <div class="stat-number">5</div>
+    <div class="stat-label">Expériences professionnelles</div>
+  </div>
+
+  <div class="stat-item">
+    <div class="stat-number">20+</div>
+    <div class="stat-label">Projets réalisés</div>
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV Section -->
+    <section class="cv-section" id="CV">
+      <div class="cv-container reveal">
+        <div class="section-header">
+          <h2 class="section-title">Mon Parcours</h2>
+          <p class="section-subtitle">Formation, expériences et compétences en communication digitale, audiovisuel et création de contenus.</p>
+        </div>
+
+        <div class="cv-grid">
+          <!-- EXPERIENCES -->
+          <div class="cv-column">
+            <h3>Expériences</h3>
+            <div class="cv-item">
+              <span class="cv-date">2025 - 2026</span>
+              <h4>Alternance en Communication</h4>
+              <p class="cv-company">État-Major de la Zone de Défense Est</p>
+              <p>Gestion des réseaux sociaux, coordination du Salon du Livre Militaire 2026 et création d'un mémento sur l'utilisation de l'intelligence artificielle au sein des armées.</p>
+            </div>
+            <div class="cv-item">
+              <span class="cv-date">2024 - 2025</span>
+              <h4>Stagiaire Communication</h4>
+              <p class="cv-company">Communauté de Communes d'Alsace Bossue</p>
+              <p>Gestion des réseaux sociaux, communication événementielle, création de magazines de programmation et relation avec les partenaires.</p>
+            </div>
+            <div class="cv-item">
+              <span class="cv-date">2024</span>
+              <h4>CDD Communication</h4>
+              <p class="cv-company">Carrelage Gerber</p>
+              <p>Conception et réalisation d'un catalogue produit destiné aux clients.</p>
+            </div>
+            <div class="cv-item">
+              <span class="cv-date">2022</span>
+              <h4>Stage Communication</h4>
+              <p class="cv-company">ML Communication</p>
+              <p>Création d'affiches, gestion des réseaux sociaux et rédaction de contenus.</p>
+            </div>
+            <div class="cv-item">
+              <span class="cv-date">2022</span>
+              <h4>Stage Communication</h4>
+              <p class="cv-company">Mosaik Cristal TV</p>
+              <p>Gestion de projets, rédaction d'articles et propositions de stratégies de communication.</p>
+            </div>
+          </div>
+
+          <!-- FORMATION -->
+          <div class="cv-column">
+            <h3>Formation</h3>
+            <div class="cv-item">
+              <span class="cv-date">2024 - 2026</span>
+              <h4>Master Audiovisuel, Médias Interactifs Numériques et Jeux</h4>
+              <p class="cv-company">Université de Lorraine - Metz</p>
+              <p>Parcours Création de Projets Numériques.</p>
+            </div>
+            <div class="cv-item">
+              <span class="cv-date">2023 - 2024</span>
+              <h4>BUT Information-Communication</h4>
+              <p class="cv-company">IUT Robert Schuman - Illkirch</p>
+              <p>Parcours Publicité.</p>
+            </div>
+            <div class="cv-item">
+              <span class="cv-date">2021 - 2023</span>
+              <h4>BTS Communication</h4>
+              <p class="cv-company">Lycée de la Communication - Metz</p>
+              <p>Formation en stratégie de communication, création de contenus et gestion de projets.</p>
+            </div>
+          </div>
+
+          <!-- COMPETENCES -->
+          <div class="cv-column">
+            <h3>Compétences</h3>
+            <div class="cv-skills">
+              <div class="skill-item">
+                <span class="skill-name">Suite Adobe</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Canva / Figma</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Réseaux Sociaux</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">WordPress</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 75%"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Gestion de Projet</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Capcut</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 90%"></div></div>
+              </div>
+            </div>
+            <div class="cv-item" style="margin-top: 30px">
+              <h4>Centres d'intérêt</h4>
+              <p>🎵 Musique<br />✈️ Voyages (États-Unis, Italie)<br />📸 Photographie<br />🎨 Dessin</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="CV.pdf" class="cv-download-btn" download>Télécharger mon CV</a>
+      </div>
+    </section>
+
+    <!-- Portfolio Section with Coverflow -->
+    <section class="portfolio-section" id="projet">
+      <div class="section-header reveal">
+        <h2 class="section-title">Mes projets</h2>
+        <p class="section-subtitle">Cliquez sur le projet central pour découvrir la fiche détaillée</p>
+      </div>
+
+      <!-- Filtres par catégorie -->
+      <div class="portfolio-filters reveal" id="portfolioFilters">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="video-photo">Vidéo / Photo</button>
+        <button class="filter-btn" data-filter="gestion">Gestion de projet</button>
+        <button class="filter-btn" data-filter="graphique">Création graphique</button>
+        <button class="filter-btn" data-filter="rédaction">Rédaction</button>
+      </div>
+
+      <div class="coverflow-wrapper">
+        <div class="coverflow-container" id="coverflowContainer">
+
+          <div class="coverflow-item" data-index="0" data-category="video-photo">
+            <img src="images/videocapture.jpg" alt="Portrait Photography" class="portfolio-image" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Vidéo</div>
+              <h3 class="portfolio-title">JI des droits des femmes</h3>
+              <p class="portfolio-description">Ministère des armées</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="1" data-category="gestion">
+            <img src="images/SDLaffiche.jpg" alt="Landscape Photography" class="portfolio-image" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Gestion de projet</div>
+              <h3 class="portfolio-title">Salon du livre Militaire 2026</h3>
+              <p class="portfolio-description"> Ministère des armées</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="2" data-category="graphique">
+            <img src="images/Gemini.png" alt="Street Photography" class="portfolio-image" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Création print</div>
+              <h3 class="portfolio-title">Carte de voeux</h3>
+              <p class="portfolio-description">Ministère des armées</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="3" data-category="video-photo">
+            <img src="images/1.jpg" alt="Architecture Photography" class="portfolio-image" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Photo</div>
+              <h3 class="portfolio-title">Photographies</h3>
+              <p class="portfolio-description">Ministère des armées</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="4" data-category="graphique">
+            <img src="images/2.svg" alt="Fashion Photography" class="portfolio-image" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Conception logo</div>
+              <h3 class="portfolio-title">Logo AMINJ</h3>
+              <p class="portfolio-description">Université de lorraine</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="5" data-category="graphique">
+            <img src="images/GAP1.pdf" alt="Wildlife Photography" class="portfolio-image" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Magazine</div>
+              <h3 class="portfolio-title">Programme d'activités sur le territoire</h3>
+              <p class="portfolio-description">Grange aux paysages</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="6" data-category="graphique">
+            <img src="images/été.jpg" alt="Black and White Photography" class="portfolio-image" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Magazine</div>
+              <h3 class="portfolio-title">Programme d'activités sur le territoire</h3>
+              <p class="portfolio-description">ComCom d'Alsace Bossue</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="7" data-category="graphique">
+            <img src="images/Barque1.pdf" alt="Event Photography" class="portfolio-image" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Brochure + affiche </div>
+              <h3 class="portfolio-title">Balade en barques</h3>
+              <p class="portfolio-description">ComCom d'Alsace Bossue</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="8" data-category="video-photo">
+            <img src="images/Logo-ORION26.jpg" alt="Portrait Photography" class="portfolio-image" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Vidéo</div>
+              <h3 class="portfolio-title">Orion</h3>
+              <p class="portfolio-description">Ministère des armées</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="9" data-category="video-photo">
+            <img src="images/fpv.jpg" alt="Série Matos FPV" class="portfolio-image" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Voix off</div>
+              <h3 class="portfolio-title">Série Matos – Drones FPV</h3>
+              <p class="portfolio-description">Ministère des Armées</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="10" data-category="rédaction">
+            <img src="images/bts.JPEG" alt="Portrait rédaction" class="portfolio-image" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Revue de presse</div>
+              <h3 class="portfolio-title">Lollapalooza Paris</h3>
+              <p class="portfolio-description">Master 1 CPN</p>
+            </div>
+          </div>
+
+
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="coverflow-controls">
+          <button class="control-btn" id="prevBtn">‹</button>
+          <button class="control-btn" id="playPauseBtn">▶</button>
+          <button class="control-btn" id="nextBtn">›</button>
+        </div>
+
+        <!-- Indicators (regénérés dynamiquement selon le filtre actif) -->
+        <div class="indicators" id="indicators"></div>
+      </div>
+
+      <!-- Hint -->
+      <p class="coverflow-hint">Cliquez sur l'image centrale pour voir la fiche projet</p>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal">
+      <div class="modal-backdrop" id="modalBackdrop"></div>
+      <div class="modal-content">
+        <button class="modal-close" id="modalClose">✕</button>
+        <div class="modal-inner">
+          <div class="modal-image-side">
+            <img src="" alt="" id="modalImage" />
+            <div class="modal-category" id="modalCategory"></div>
+          </div>
+          <div class="modal-info-side">
+            <h2 id="modalTitle"></h2>
+            <p class="modal-desc" id="modalDesc"></p>
+            <div class="modal-meta" id="modalMeta"></div>
+            <div class="modal-tags" id="modalTags"></div>
+            <div id="modalGallery" class="modal-gallery"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+<section class="services-section" id="services">
+  <div class="services-container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Mémoire</h2>
+    </div>
+    <div class="services-grid reveal">
+
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C10.34 2 9 3.34 9 5C9 6.66 10.34 8 12 8C13.66 8 15 6.66 15 5C15 3.34 13.66 2 12 2ZM12 9C8.69 9 6 11.69 6 15C6 16.66 6.56 18.17 7.5 19.32V22L12 20L16.5 22V19.32C17.44 18.17 18 16.66 18 15C18 11.69 15.31 9 12 9Z"/>
+          </svg>
+        </div>
+        <h3 class="service-title">Master 1</h3>
+        <p class="service-description">
+          Les stratégies de communication des agences de K-pop sur les réseaux sociaux
+        </p>
+        <a href="images/Mémoire-ChloeFlauss-24-25.pdf"
+           class="memoire-download-btn"
+           download
+           aria-label="Télécharger le mémoire de Master 1 (PDF)">
+          Télécharger mon mémoire
+        </a>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 6.5C12 5.67 11.33 5 10.5 5S9 5.67 9 6.5 9.67 8 10.5 8 12 7.33 12 6.5M13.5 5C12.67 5 12 5.67 12 6.5S12.67 8 13.5 8 15 7.33 15 6.5 14.33 5 13.5 5M12 21.35L5.35 14.7C3.58 12.93 2.61 10.54 2.61 8.04C2.61 3.74 6.05 0.25 10.36 0.21C14.72 0.17 18.29 3.69 18.29 8C18.29 10.53 17.34 12.88 15.58 14.65L12 21.35Z"/>
+          </svg>
+        </div>
+        <h3 class="service-title">Master 2</h3>
+        <p class="service-description">
+          Conception et évaluation d'un dispositif visant à former et à optimiser les usages de l'intelligence artificielle générative au sein de l'armée
+        </p>
+        <div class="service-status">En cours de rédaction</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Compétence Section -->
+<section class="services-section" id="compétences">
+  <div class="services-container">
+    <div class="section-header reveal">
+      <h2 class="section-title">Radar des compétences</h2>
+    </div>
+
+    <div class="competences-radars">
+      <div class="competences-image">
+        <img src="images/radar.png" alt="radar1" />
+      </div>
+
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Créons quelque chose de beau ensemble.</p>
+        </div>
+        <div class="contact-info reveal">
+          <a href="mailto:hello@capture.com" class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/></svg>
+            </div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">flausschloe@gmail.com</div>
+          </a>
+          <a href="tel:+1234567890" class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.69 14.9 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z"/></svg>
+            </div>
+            <div class="contact-label">Phone</div>
+            <div class="contact-value">07 71 82 05 74</div>
+          </a>
+          <a href="https://maps.google.com/?q=New+York+USA" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22S19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9S10.62 6.5 12 6.5S14.5 7.62 14.5 9S13.38 11.5 12 11.5Z"/></svg>
+            </div>
+            <div class="contact-label">Home</div>
+            <div class="contact-value">Metz, 57000</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://www.instagram.com/ch_fl2003?utm_source=qr" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 19.4 19.4 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 4.6 4.6 2 7.8 2M7.6 4C5.61 4 4 5.61 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C18.39 20 20 18.39 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6M17.25 5.5C17.94 5.5 18.5 6.06 18.5 6.75S17.94 8 17.25 8S16 7.44 16 6.75S16.56 5.5 17.25 5.5M12 7C14.76 7 17 9.24 17 12S14.76 17 12 17S7 14.76 7 12S9.24 7 12 7M12 9C10.34 9 9 10.34 9 12S10.34 15 12 15S15 13.66 15 12S13.66 9 12 9Z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/share/1BPNxsoqA8/?mibextid=wwXIfr" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C18.34 21.21 22 17.06 22 12.06C22 6.53 17.5 2.04 12 2.04Z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/chloe-flauss-70a253267/" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 3C19.55 3 20.05 3.21 20.41 3.59C20.79 3.95 21 4.45 21 5V19C21 19.55 20.79 20.05 20.41 20.41C20.05 20.79 19.55 21 19 21H5C4.45 21 3.95 20.79 3.59 20.41C3.21 20.05 3 19.55 3 19V5C3 4.45 3.21 3.95 3.59 3.59C3.95 3.21 4.45 3 5 3H19M18.5 18.5V13.2C18.5 11.87 17.45 10.82 16.12 10.82C15.21 10.82 14.46 11.37 14.17 12.15V11H11.5V18.5H14.17V13.57C14.17 12.82 14.79 12.2 15.54 12.2C16.29 12.2 16.91 12.82 16.91 13.57V18.5H18.5M6.88 9.57C7.63 9.57 8.25 8.96 8.25 8.21C8.25 7.46 7.63 6.84 6.88 6.84C6.13 6.84 5.5 7.46 5.5 8.21C5.5 8.96 6.13 9.57 6.88 9.57M8.21 18.5V11H5.5V18.5H8.21Z"/></svg>
+          </a>
+        </div>
+        <p class="footer-text">
+          © 2026 Amber Folio Photography. All rights reserved.<br />
+          Design: <a href="https://templatemo.com" target="_blank" rel="noopener">TemplateMo</a>
+        </p>
+      </div>
+    </footer>
+
+  <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose">✕</button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</button>
+      <button class="lightbox-nav lightbox-next" id="lightboxNext">›</button>
+      <div class="lightbox-img-wrap">
+        <img id="lightboxImg" src="" alt="" />
+      </div>
+      <div class="lightbox-counter" id="lightboxCounter"></div>
+    </div>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
