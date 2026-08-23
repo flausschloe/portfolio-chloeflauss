@@ -20,26 +20,27 @@ const projectsData = [
   }
 ],
   },
-  {
-    title: "Salon du Livre Militaire",
-    category: "Événementiel",
-    mainCategory: "gestion",
-    image: "images/SDLaffiche.jpg",
-    description: "Sur ce projet, j'occupais le rôle de chargée de projet et de conceptrice des différents outils de communication : affiches, publications pour les réseaux sociaux, marque-pages, ainsi que la rédaction des contenus du site internet. J'assurais également la prise de contact avec les intervenants et partenaires externes, la gestion de la visibilité de l'événement sur les pages de la mairie et de la Ville de Metz, et les relations avec les médias afin de promouvoir le projet auprès du grand public.",
-    meta: [
-      { label: "Année", value: "2026" },
-      { label: "Rôle", value: "Chargée de projet & conceptrice" },
-      { label: "Lieu", value: "Cercle Mess, Metz" },
-      { label: "Date", value: "11 avril 2026" },
-    ],
-    tags: ["Événementiel", "Affiches", "Réseaux sociaux", "Relations presse"],
-    gallery: [
-      "images/exposant.jpg",
-      "images/Invitation.jpg",
-      "images/marquepage.jpeg",
-      "images/organisateur.jpg",
-    ],
-  },
+{
+  title: "Salon du Livre Militaire",
+  category: "Événementiel",
+  mainCategory: "gestion",
+  image: "images/IMG_0021.JPG",
+  description: "Sur ce projet, j'occupais le rôle de chargée de projet et de conceptrice des différents outils de communication : affiches, publications pour les réseaux sociaux, marque-pages, ainsi que la rédaction des contenus du site internet. J'assurais également le suivi et la coordination des différentes étapes du projet, la prise de contact avec les intervenants et partenaires externes, ainsi que la recherche de différents relais pour assurer la visibilité de l'événement. J'ai notamment contribué à son référencement dans l'agenda de la Ville de Metz et rédigé, en collaboration avec les organisateurs du Salon du Livre de Metz, un article destiné à intégrer leur livret. J'ai également assuré les relations avec les médias afin de promouvoir le projet auprès du grand public.",
+  meta: [
+    { label: "Année", value: "2026" },
+    { label: "Rôle", value: "Chargée de projet & conceptrice" },
+    { label: "Lieu", value: "Cercle Mess, Metz" },
+    { label: "Date", value: "11 avril 2026" },
+  ],
+  tags: ["Événementiel", "Gestion de projet", "Affiches", "Réseaux sociaux", "Relations presse"],
+  gallery: [
+    "images/exposant.jpg",
+    "images/invitation.jpg",
+    "images/marquepage.jpeg",
+    "images/SDLaffiche.jpg",
+    "images/organisateur.jpg",
+  ],
+},
   {
     title: "Carte de Vœux 2026",
     category: "Print & Digital",
@@ -125,7 +126,7 @@ const projectsData = [
     title: "Été en Alsace Bossue",
     category: "Édition",
     mainCategory: "graphique",
-    image: "images/été.jpeg",
+    image: "images/été.jpg",
     description: "Réalisation de l'intégralité du magazine des activités estivales proposées sur le territoire de la Communauté de Communes d'Alsace Bossue, mis à disposition dans différents lieux touristiques. J'ai également décliné la première de couverture en affiches aux formats A3, A4 et A5 afin d'élargir sa diffusion dans les commerces et lors d'événements locaux.",
     meta: [
       { label: "Année", value: "2024" },
@@ -141,7 +142,7 @@ const projectsData = [
     title: "Balade en barque",
     category: "Édition",
     mainCategory: "graphique",
-    image: "images/Barque1.jpeg",
+    image: "images/Barque1.pdf",
     description: "Dans le cadre de mon stage à la Communauté de communes, j'ai participé à la refonte du prospectus des Balades en barques. J'ai contribué à la réalisation des prises de vue en collaboration avec le chargé de communication de la mairie, puis assuré la conception et la mise en page du document. Ce travail comprenait l'application de la charte graphique existante ainsi que l'intégration de nouveaux visuels et éléments de contenu afin de moderniser le support de communication.",
     meta: [
       { label: "Année", value: "2025" },
@@ -208,9 +209,9 @@ const projectsData = [
   title: "Lollapalooza Paris",
   category: "Revue de presse",
   mainCategory: "rédaction",
-  image: "images/bts.JPEG", // Image de couverture du projet
+  image: "images/presse.png", // Image de couverture du projet
   description:
-    "Dans le cadre de mon master 1 création de projet numérique, dans le cours de écrire pour le numérique, j'ai du, sur un sujet choisi au choix, créer un dossier de presse numérique rassembalnt vidéo, revue de presse et dossier de presse mettat en avant une thématique",
+    "Dans le cadre de mon master 1 création de projet numérique, dans le cours d'écrire pour le numérique, j'ai dû, sur un sujet choisi au choix, créer un dossier de presse numérique rassemblant vidéo, revue de presse et dossier de presse mettant en avant une thématique. Il s'agit d'un exercice de simulation fictif réalisé dans un cadre pédagogique.",
   meta: [
     { label: "Année", value: "2025" },
     { label: "Client", value: "Master 1 CPN" },
@@ -226,7 +227,7 @@ const projectsData = [
 ],
 },
 
-  {
+{
   title: "13 juillet",
   category: "Dossier de presse",
   mainCategory: "rédaction",
@@ -247,7 +248,123 @@ const projectsData = [
   }
 ],
 },
+
+{
+  title: "Projet IAG",
+  category: "Outil de formation",
+  mainCategory: "IAG",
+  image: "images/synthèse.png",
+  description:
+    "Réalisé dans le cadre de mon mémoire de Master 2, ce projet consiste en la conception d'un site web de formation destiné à accompagner la compréhension et l'utilisation des intelligences artificielles génératives (IAG) dans les projets menés au sein du ministère des Armées. L'outil intègre également trois générateurs de prompts (texte, image et vidéo) permettant d'expérimenter concrètement différentes pratiques d'usage de l'IA générative.",
+  meta: [
+    { label: "Année", value: "2026" },
+    { label: "Client", value: "Ministère des Armées" },
+    { label: "Format", value: "Site web de formation" },
+    { label: "Fonctionnalités", value: "3 générateurs de prompts (texte, image, vidéo)" },
+  ],
+  tags: ["IAG", "Formation", "Site web", "Prompt engineering"],
+  gallery: [
+    {
+      image: "images/IAG.png",
+      link: "https://syyxhf.csb.app/"
+    }
+  ],
+},
+
+
+{
+  title: "Plaquette visiteurs JEP",
+  category: "infographie",
+  mainCategory: "graphique",
+  image: "images/JEP-affiche.png",
+ description:
+  "À l’occasion des Journées Européennes du Patrimoine (JEP), j’ai eu pour mission de concevoir une plaquette visiteurs destinée à être distribuée lors de l’événement. Cette infographie s’inscrit dans la thématique des casernes de la ville de Metz et de ses alentours. L’objectif était de proposer une nouvelle version de la plaquette afin de faciliter la compréhension et la découverte du parcours. Elle présente notamment des informations sur le lieu de l’événement, le Palais du Gouverneur, un plan simplifié sous forme de parcours, ainsi que les principaux points d’intérêt liés aux animations et aux expositions.",
+  meta: [
+    { label: "Année", value: "2026" },
+    { label: "Client", value: "Ministère des Armées" },
+    { label: "Format", value: "Plaquette visiteurs" },
+    { label: "Fonctionnalités", value: "Plan du parcours, informations pratiques, animations et expositions" },
+  ],
+  tags: ["plaquette visiteurs", "JEP", "Canva", "infographie"],
+  gallery: [
+{
+    image: "images/plaquette1.png",
+  },
+  {
+    image: "images/plaquette2.png",
+  }
+  ],
+},
+
+{
+  title: "Roll up",
+  category: "infographie",
+  mainCategory: "graphique",
+  image: "images/roll.jpeg",
+ description:
+  "Dans le cadre de ma mission au sein du Ministère des Armées, j’ai conçu un roll-up destiné à présenter de manière claire et attractive les différents établissements de la zone Nord-Est. L’objectif était de créer un support de communication facilement identifiable et lisible à distance, tout en respectant l’identité visuelle de l’organisation. J’ai travaillé la hiérarchisation des informations, la mise en page et l’intégration des différents éléments graphiques afin de rendre le contenu accessible et adapté à une utilisation lors d’événements et de rencontres professionnelles.",
+  meta: [
+    { label: "Année", value: "2026" },
+    { label: "Client", value: "Ministère des Armées" },
+    { label: "Format", value: "Plaquette visiteurs" },
+    { label: "Fonctionnalités", value: "Plan du parcours, informations pratiques, animations et expositions" },
+  ],
+  tags: ["plaquette visiteurs", "JEP", "Canva", "infographie"],
+  gallery: [
+{
+    image: "images/roll-up.png",
+  },
+  {
+    image: "images/roll1.png",
+  },
+  ],
+},
+
+
+{
+  title: "Réécriture d'un article pour les AI Overviews",
+  category: "Rédaction web",
+  mainCategory: "rédaction",
+  image: "images/electricté.jpg",
+  description:
+    "Dans le cadre d’un travail de rédaction web, j’ai été chargée de réécrire un article historique positionné sur la requête « comment réduire sa facture d’électricité ». L’objectif était d’adapter son contenu aux évolutions des moteurs de recherche, notamment à l’apparition des AI Overviews dans Google. J’ai ainsi travaillé la structure, la clarté et la hiérarchisation des informations afin de faciliter leur compréhension et leur reprise par les moteurs de recherche génératifs, tout en conservant une rédaction adaptée à un site d’information grand public.",
+  meta: [
+    { label: "Année", value: "2026" },
+    { label: "Projet", value: "Optimisation SEO et rédaction web" },
+    { label: "Requête cible", value: "Comment réduire sa facture d’électricité" },
+    { label: "Objectif", value: "Optimisation pour les AI Overviews" },
+  ],
+  tags: ["Référencement", "SEO", "Rédaction web", "AI Overviews", "IA"],
+  gallery: [
+    {
+      image: "images/article-electricte.pdf",
+    },
+  ],
+},
+
+{
+  title: "Visite du Palais du Gouverneur",
+  category: "Animation",
+  mainCategory: "animation",
+  image: "images/IMG_0022.jpg",
+  description:
+    "Dans le cadre des Journées Européennes du Patrimoine, j’ai participé à l’animation autour de la visite du Palais du Gouverneur à Metz. Cette participation m’a permis de contribuer à la mise en valeur du lieu et à l’accompagnement des visiteurs dans leur découverte du patrimoine militaire. Cette animation s’inscrivait dans le parcours proposé au public lors de l’événement.",
+  meta: [
+    { label: "Année", value: "2026" },
+    { label: "Client", value: "Ministère des Armées" },
+    { label: "Événement", value: "Journées Européennes du Patrimoine" },
+    { label: "Lieu", value: "Palais du Gouverneur, Metz" },
+  ],
+  tags: ["Animation", "JEP", "Patrimoine", "Visite", "Événementiel"],
+  gallery: [
+    "images/IMG_0022.jpg",
+  ],
+},
+
+
 ];
+
+
 
 // ── LIGHTBOX ───────────────────────────────────────────
 
