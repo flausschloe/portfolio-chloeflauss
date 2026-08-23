@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chloé Folio</title>
+    <title>Chloé Flauss</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -22,7 +22,7 @@
         <ul class="nav-menu" id="navMenu">
           <li><a href="#about">À propos</a></li>
           <li><a href="#CV">CV</a></li>
-          <li><a href="#projet">Projets</a></li>
+          <li><a href="#projet">Projet</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#compétences">Compétences</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -184,7 +184,7 @@
           </div>
         </div>
 
-        <a href="images/CV .pdf" class="cv-download-btn" download>Télécharger mon CV</a>
+        <a href="CV .pdf" class="cv-download-btn" download>Télécharger mon CV</a>
       </div>
     </section>
 
@@ -198,62 +198,21 @@
       <!-- Filtres par catégorie -->
       <div class="portfolio-filters reveal" id="portfolioFilters">
         <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="IAG">Projet IAG</button>
         <button class="filter-btn" data-filter="video-photo">Vidéo / Photo</button>
         <button class="filter-btn" data-filter="gestion">Gestion de projet</button>
         <button class="filter-btn" data-filter="graphique">Création graphique</button>
         <button class="filter-btn" data-filter="rédaction">Rédaction</button>
+        <button class="filter-btn" data-filter="animation">Animation</button>
       </div>
 
       <div class="coverflow-wrapper">
         <div class="coverflow-container" id="coverflowContainer">
 
-          <div class="coverflow-item" data-index="0" data-category="video-photo">
-            <img src="images/videocapture.jpg" alt="Portrait Photography" class="portfolio-image" />
-            <div class="portfolio-overlay">
-              <div class="portfolio-category">Vidéo</div>
-              <h3 class="portfolio-title">JI des droits des femmes</h3>
-              <p class="portfolio-description">Ministère des armées</p>
-            </div>
-          </div>
-
-          <div class="coverflow-item" data-index="1" data-category="gestion">
-            <img src="images/SDLaffiche.jpg" alt="Landscape Photography" class="portfolio-image" />
-            <div class="portfolio-overlay">
-              <div class="portfolio-category">Gestion de projet</div>
-              <h3 class="portfolio-title">Salon du livre Militaire 2026</h3>
-              <p class="portfolio-description"> Ministère des armées</p>
-            </div>
-          </div>
-
-          <div class="coverflow-item" data-index="2" data-category="graphique">
-            <img src="images/Gemini.png" alt="Street Photography" class="portfolio-image" />
-            <div class="portfolio-overlay">
-              <div class="portfolio-category">Création print</div>
-              <h3 class="portfolio-title">Carte de voeux</h3>
-              <p class="portfolio-description">Ministère des armées</p>
-            </div>
-          </div>
-
-          <div class="coverflow-item" data-index="3" data-category="video-photo">
-            <img src="images/1.jpeg" alt="Architecture Photography" class="portfolio-image" />
-            <div class="portfolio-overlay">
-              <div class="portfolio-category">Photo</div>
-              <h3 class="portfolio-title">Photographies</h3>
-              <p class="portfolio-description">Ministère des armées</p>
-            </div>
-          </div>
-
-          <div class="coverflow-item" data-index="4" data-category="graphique">
-            <img src="images/2.svg" alt="Fashion Photography" class="portfolio-image" />
-            <div class="portfolio-overlay">
-              <div class="portfolio-category">Conception logo</div>
-              <h3 class="portfolio-title">Logo AMINJ</h3>
-              <p class="portfolio-description">Université de lorraine</p>
-            </div>
-          </div>
-
+          <!-- 2024 -->
           <div class="coverflow-item" data-index="5" data-category="graphique">
             <img src="images/GAP1.jpeg" alt="Wildlife Photography" class="portfolio-image" />
+            <div class="portfolio-date">Janvier 2025</div>
             <div class="portfolio-overlay">
               <div class="portfolio-category">Magazine</div>
               <h3 class="portfolio-title">Programme d'activités sur le territoire</h3>
@@ -263,6 +222,7 @@
 
           <div class="coverflow-item" data-index="6" data-category="graphique">
             <img src="images/été.jpg" alt="Black and White Photography" class="portfolio-image" />
+            <div class="portfolio-date">Janvier 2025</div>
             <div class="portfolio-overlay">
               <div class="portfolio-category">Magazine</div>
               <h3 class="portfolio-title">Programme d'activités sur le territoire</h3>
@@ -270,8 +230,30 @@
             </div>
           </div>
 
+          <!-- 2025 -->
+          <div class="coverflow-item" data-index="4" data-category="graphique">
+            <img src="images/2.svg" alt="Fashion Photography" class="portfolio-image" />
+            <div class="portfolio-date">Mars 2025</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Conception logo</div>
+              <h3 class="portfolio-title">Logo AMINJ</h3>
+              <p class="portfolio-description">Université de lorraine</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="10" data-category="rédaction">
+            <img src="images/presse.png" alt="Portrait rédaction" class="portfolio-image" />
+            <div class="portfolio-date">Avril 2025</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Revue de presse</div>
+              <h3 class="portfolio-title">Lollapalooza Paris</h3>
+              <p class="portfolio-description">Master 1 CPN</p>
+            </div>
+          </div>
+
           <div class="coverflow-item" data-index="7" data-category="graphique">
             <img src="images/Barque1.jpeg" alt="Event Photography" class="portfolio-image" />
+            <div class="portfolio-date">Mai 2025</div>
             <div class="portfolio-overlay">
               <div class="portfolio-category">Brochure + affiche </div>
               <h3 class="portfolio-title">Balade en barques</h3>
@@ -279,8 +261,71 @@
             </div>
           </div>
 
+
+          <div class="coverflow-item" data-index="14" data-category="graphique">
+            <img src="images/roll.jpeg" alt="Portrait Photography" class="portfolio-image" />
+            <div class="portfolio-date">Juin 2025</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Infographie</div>
+              <h3 class="portfolio-title">Roll up</h3>
+              <p class="portfolio-description">Communauté de communes de l'Alsace Bossue</p>
+            </div>
+          </div>
+
+          <!-- 2026 -->
+          <div class="coverflow-item" data-index="2" data-category="graphique">
+            <img src="images/Gemini.png" alt="Street Photography" class="portfolio-image" />
+            <div class="portfolio-date">Janvier 2026</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Création print</div>
+              <h3 class="portfolio-title">Carte de voeux</h3>
+              <p class="portfolio-description">Ministère des armées</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="15" data-category="rédaction">
+            <img src="images/electricté.jpg" alt="Portrait rédaction" class="portfolio-image" />
+            <div class="portfolio-date">Février 2026</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Article</div>
+              <h3 class="portfolio-title">Comment réduire sa facture d’électricité</h3>
+              <p class="portfolio-description">Master 2 CPN</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="0" data-category="video-photo">
+            <img src="images/videocapture.jpg" alt="Portrait Photography" class="portfolio-image" />
+            <div class="portfolio-date">Mars 2026</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Vidéo</div>
+              <h3 class="portfolio-title">JI des droits des femmes</h3>
+              <p class="portfolio-description">Ministère des armées</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="1" data-category="gestion">
+            <img src="images/IMG_0021.JPG" alt="Landscape Photography" class="portfolio-image" />
+            <div class="portfolio-date">Avril 2026</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Gestion de projet</div>
+              <h3 class="portfolio-title">Salon du livre Militaire 2026</h3>
+              <p class="portfolio-description"> Ministère des armées</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="3" data-category="video-photo">
+            <img src="images/1.jpeg" alt="Architecture Photography" class="portfolio-image" />
+            <div class="portfolio-date">Avril 2026</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Photo</div>
+              <h3 class="portfolio-title">Photographies</h3>
+              <p class="portfolio-description">Ministère des armées</p>
+            </div>
+          </div>
+
           <div class="coverflow-item" data-index="8" data-category="video-photo">
             <img src="images/Logo-ORION26.jpg" alt="Portrait Photography" class="portfolio-image" />
+            <div class="portfolio-date">Avril 2026</div>
             <div class="portfolio-overlay">
               <div class="portfolio-category">Vidéo</div>
               <h3 class="portfolio-title">Orion</h3>
@@ -288,8 +333,19 @@
             </div>
           </div>
 
+          <div class="coverflow-item" data-index="16" data-category="animation">
+            <img src="images/palais.png" alt="animation" class="portfolio-image" />
+            <div class="portfolio-date">Juin 2026</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Animation</div>
+              <h3 class="portfolio-title">Visite du Palais du gouverneur</h3>
+              <p class="portfolio-description">Ministère des armées</p>
+            </div>
+          </div>
+
           <div class="coverflow-item" data-index="9" data-category="video-photo">
             <img src="images/fpv.jpg" alt="Série Matos FPV" class="portfolio-image" />
+            <div class="portfolio-date">Juin 2026</div>
             <div class="portfolio-overlay">
               <div class="portfolio-category">Voix off</div>
               <h3 class="portfolio-title">Série Matos – Drones FPV</h3>
@@ -299,6 +355,7 @@
 
           <div class="coverflow-item" data-index="11" data-category="rédaction">
             <img src="images/DP13juillet.png" alt="Portrait rédaction" class="portfolio-image" />
+            <div class="portfolio-date">Juillet 2026</div>
             <div class="portfolio-overlay">
               <div class="portfolio-category">Dossier de presse</div>
               <h3 class="portfolio-title">13 juillet</h3>
@@ -306,6 +363,25 @@
             </div>
           </div>
 
+          <div class="coverflow-item" data-index="13" data-category="graphique">
+            <img src="images/JEP-affiche.png" alt="Portrait Photography" class="portfolio-image" />
+            <div class="portfolio-date">Septembre 2026</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Infographie</div>
+              <h3 class="portfolio-title">Journées Européennes du patrimoine</h3>
+              <p class="portfolio-description">Ministère des armées</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="12" data-category="IAG">
+            <img src="images/synthèse.png" alt="IAG" class="portfolio-image" />
+            <div class="portfolio-date">Septembre 2026</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">IAG</div>
+              <h3 class="portfolio-title">Projet IAG</h3>
+              <p class="portfolio-description">Ministère des armées</p>
+            </div>
+          </div>
 
         </div>
 
