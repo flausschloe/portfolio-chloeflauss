@@ -126,7 +126,7 @@ const projectsData = [
     title: "Été en Alsace Bossue",
     category: "Édition",
     mainCategory: "graphique",
-    image: "images/été.jpg",
+    image: "images/ete.jpeg",
     description: "Réalisation de l'intégralité du magazine des activités estivales proposées sur le territoire de la Communauté de Communes d'Alsace Bossue, mis à disposition dans différents lieux touristiques. J'ai également décliné la première de couverture en affiches aux formats A3, A4 et A5 afin d'élargir sa diffusion dans les commerces et lors d'événements locaux.",
     meta: [
       { label: "Année", value: "2024" },
@@ -253,7 +253,7 @@ const projectsData = [
   title: "Projet IAG",
   category: "Outil de formation",
   mainCategory: "IAG",
-  image: "images/synthèse.png",
+  image: "images/synthese.PNG",
   description:
     "Réalisé dans le cadre de mon mémoire de Master 2, ce projet consiste en la conception d'un site web de formation destiné à accompagner la compréhension et l'utilisation des intelligences artificielles génératives (IAG) dans les projets menés au sein du ministère des Armées. L'outil intègre également trois générateurs de prompts (texte, image et vidéo) permettant d'expérimenter concrètement différentes pratiques d'usage de l'IA générative.",
   meta: [
@@ -325,7 +325,7 @@ const projectsData = [
   title: "Réécriture d'un article pour les AI Overviews",
   category: "Rédaction web",
   mainCategory: "rédaction",
-  image: "images/electricté.jpg",
+  image: "images/electricite.jpeg",
   description:
     "Dans le cadre d’un travail de rédaction web, j’ai été chargée de réécrire un article historique positionné sur la requête « comment réduire sa facture d’électricité ». L’objectif était d’adapter son contenu aux évolutions des moteurs de recherche, notamment à l’apparition des AI Overviews dans Google. J’ai ainsi travaillé la structure, la clarté et la hiérarchisation des informations afin de faciliter leur compréhension et leur reprise par les moteurs de recherche génératifs, tout en conservant une rédaction adaptée à un site d’information grand public.",
   meta: [
