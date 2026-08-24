@@ -22,8 +22,8 @@
         <ul class="nav-menu" id="navMenu">
           <li><a href="#about">À propos</a></li>
           <li><a href="#CV">CV</a></li>
-          <li><a href="#projet">Projet</a></li>
-          <li><a href="#services">Services</a></li>
+          <li><a href="#projet">Projets</a></li>
+          <li><a href="#services">Mémoires</a></li>
           <li><a href="#compétences">Compétences</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -197,9 +197,9 @@
 
       <!-- Filtres par catégorie -->
       <div class="portfolio-filters reveal" id="portfolioFilters">
-        <button class="filter-btn active" data-filter="all">Tous</button>
-        <button class="filter-btn" data-filter="IAG">Projet IAG</button>
-        <button class="filter-btn" data-filter="video-photo">Vidéo / Photo</button>
+        <button class="filter-btn active" data-filter="IAG">Projet IAG</button>
+        <button class="filter-btn" data-filter="réseaux-sociaux">Réseaux sociaux</button>
+        <button class="filter-btn" data-filter="photographie">Photographie</button>
         <button class="filter-btn" data-filter="gestion">Gestion de projet</button>
         <button class="filter-btn" data-filter="graphique">Création graphique</button>
         <button class="filter-btn" data-filter="rédaction">Rédaction</button>
@@ -293,7 +293,7 @@
             </div>
           </div>
 
-          <div class="coverflow-item" data-index="0" data-category="video-photo">
+          <div class="coverflow-item" data-index="0" data-category="réseaux-sociaux">
             <img src="images/videocapture.jpg" alt="Portrait Photography" class="portfolio-image" />
             <div class="portfolio-date">Mars 2026</div>
             <div class="portfolio-overlay">
@@ -313,17 +313,17 @@
             </div>
           </div>
 
-          <div class="coverflow-item" data-index="3" data-category="video-photo">
+          <div class="coverflow-item" data-index="3" data-category="photographie">
             <img src="images/1.jpeg" alt="Architecture Photography" class="portfolio-image" />
             <div class="portfolio-date">Avril 2026</div>
             <div class="portfolio-overlay">
-              <div class="portfolio-category">Photo</div>
-              <h3 class="portfolio-title">Photographies</h3>
+              <div class="portfolio-category">Photographie</div>
+              <h3 class="portfolio-title">Photographies exercice Orion</h3>
               <p class="portfolio-description">Ministère des armées</p>
             </div>
           </div>
 
-          <div class="coverflow-item" data-index="8" data-category="video-photo">
+          <div class="coverflow-item" data-index="8" data-category="réseaux-sociaux">
             <img src="images/Logo-ORION26.jpg" alt="Portrait Photography" class="portfolio-image" />
             <div class="portfolio-date">Avril 2026</div>
             <div class="portfolio-overlay">
@@ -343,7 +343,7 @@
             </div>
           </div>
 
-          <div class="coverflow-item" data-index="9" data-category="video-photo">
+          <div class="coverflow-item" data-index="9" data-category="réseaux-sociaux">
             <img src="images/fpv.jpg" alt="Série Matos FPV" class="portfolio-image" />
             <div class="portfolio-date">Juin 2026</div>
             <div class="portfolio-overlay">
@@ -373,7 +373,17 @@
             </div>
           </div>
 
-          <div class="coverflow-item" data-index="12" data-category="IAG">
+          <div class="coverflow-item" data-index="10" data-category="réseaux-sociaux">
+            <img src="images/matos.png" alt="Portrait Photography" class="portfolio-image" />
+            <div class="portfolio-date">Juillet-aout 2026</div>
+            <div class="portfolio-overlay">
+              <div class="portfolio-category">Série</div>
+              <h3 class="portfolio-title">Série Matos</h3>
+              <p class="portfolio-description">Ministère des armées</p>
+            </div>
+          </div>
+
+          <div class="coverflow-item" data-index="17" data-category="IAG">
             <img src="images/synthese.PNG" alt="IAG" class="portfolio-image" />
             <div class="portfolio-date">Septembre 2026</div>
             <div class="portfolio-overlay">
@@ -425,7 +435,7 @@
 <section class="services-section" id="services">
   <div class="services-container">
     <div class="section-header reveal">
-      <h2 class="section-title">Mémoire</h2>
+      <h2 class="section-title">Mémoires</h2>
     </div>
     <div class="services-grid reveal">
 
@@ -447,7 +457,7 @@
         </a>
       </div>
 
-      <div class="service-card">
+            <div class="service-card">
         <div class="service-icon" aria-hidden="true">
           <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 6.5C12 5.67 11.33 5 10.5 5S9 5.67 9 6.5 9.67 8 10.5 8 12 7.33 12 6.5M13.5 5C12.67 5 12 5.67 12 6.5S12.67 8 13.5 8 15 7.33 15 6.5 14.33 5 13.5 5M12 21.35L5.35 14.7C3.58 12.93 2.61 10.54 2.61 8.04C2.61 3.74 6.05 0.25 10.36 0.21C14.72 0.17 18.29 3.69 18.29 8C18.29 10.53 17.34 12.88 15.58 14.65L12 21.35Z"/>
@@ -457,7 +467,12 @@
         <p class="service-description">
           Conception et évaluation d'un dispositif visant à former et à optimiser les usages de l'intelligence artificielle générative au sein de l'armée
         </p>
-        <div class="service-status">En cours de rédaction</div>
+        <a href="images/M2CPN-2025-Flauss_Chloé.pdf"
+           class="memoire-download-btn"
+           download
+           aria-label="Télécharger le mémoire de Master 1 (PDF)">
+          Télécharger mon mémoire
+        </a>
       </div>
 
     </div>
