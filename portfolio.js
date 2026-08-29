@@ -38,7 +38,6 @@ const projectsData = [
   // ====================================================
   // SALON DU LIVRE MILITAIRE
   // ====================================================
-
   {
     title: "Salon du Livre Militaire",
     category: "Événementiel",
@@ -60,11 +59,27 @@ const projectsData = [
       "Relations presse"
     ],
     gallery: [
-      "images/exposant.jpg",
       "images/invitation.jpg",
       "images/marquepage.jpeg",
       "images/SDLaffiche.jpg",
-      "images/organisateur.jpg"
+      "images/organisateur.jpg",
+      "images/site-internet.png",
+      {
+        image: "images/CPSDL26.png",
+        link: "images/CPSDL26.pdf"
+      },
+      {
+        image: "images/Pitch.png",
+        link: "images/Pitch.pdf"
+      },
+      {
+        image: "images/Planning-éditorial.png",
+        link: "images/Planning-éditorial.pdf"
+      },
+      {
+        image: "images/pdc.png",
+        link: "images/pdc.pdf"
+      }
     ]
   },
 
@@ -562,9 +577,50 @@ const projectsData = [
         link: "https://syyxhf.csb.app/"
       }
     ]
-  }
+  },
 
-];
+
+  // ====================================================
+  // HÔPITAL D'ENFANTS
+  // ====================================================
+
+  {
+    title: "Reportage à l'Hôpital d'Enfants",
+    category: "Réseaux sociaux",
+    mainCategory: "réseaux-sociaux",
+    image: "images/first.png",
+    description:
+      "Réalisée lors de mon alternance à l'État-Major de la Zone de Défense Est, cette vidéo a été tournée à l'Hôpital d'Enfants. J'ai participé à la préparation du projet ainsi qu'à la rédaction des questions d'interview, avant de réaliser le tournage sur place. La vidéo a ensuite été déclinée pour une diffusion sur LinkedIn, Instagram, TikTok et Facebook.",
+    meta: [
+      { label: "Année", value: "2026" },
+      { label: "Client", value: "État-Major Zone de Défense Est" },
+      { label: "Format", value: "LinkedIn, Instagram, TikTok, Facebook" },
+      { label: "Rôle", value: "Préparation, interview & tournage" }
+    ],
+    tags: [
+      "Vidéo",
+      "Interview",
+      "Réseaux sociaux",
+      "Institutionnel"
+    ],
+    gallery: [
+      "images/hopi.png",
+      {
+        image: "images/linkedin.png",
+        link: "https://www.linkedin.com/posts/arm%C3%A9es-zone-nord-est_une-parenth%C3%A8se-musicale-et-solidaire-pour-activity-7460599801060139008-5Obq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEFatToBFywjqaUq073pX5JOt3-r-uh--lQ"
+      },
+      {
+        image: "images/facebook.jpg",
+        link: "https://www.instagram.com/reel/DYeQrtMNGlM/"
+      },
+      {
+        image: "images/insta.jpg",
+        link: "https://www.facebook.com/armeeszne/posts/pfbid02U9erveHBoWzp8Z8CQVFj5Aq9GSWH3cZvDiAgKTihENz6eoVAJofn9jfw24pxLyfvl?locale=fr_FR"
+      }
+    ]
+  },
+
+  ];
 
 
 // ======================================================
@@ -918,7 +974,7 @@ function openModal(index) {
 
         });
 
-    } else {
+} else {
 
       modalGallery.style.display =
         "none";
