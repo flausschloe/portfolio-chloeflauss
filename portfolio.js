@@ -59,7 +59,7 @@ const projectsData = [
       "Relations presse"
     ],
     gallery: [
-      "images/invitation.jpg",
+      "images/Invitation.jpg",
       "images/marquepage.jpeg",
       "images/SDLaffiche.jpg",
       "images/organisateur.jpg",
@@ -73,8 +73,8 @@ const projectsData = [
         link: "images/Pitch.pdf"
       },
       {
-        image: "images/Planning-éditorial.png",
-        link: "images/Planning-éditorial.pdf"
+        image: "images/Planning-editorial.png",
+        link: "images/Planning-editorial.pdf"
       },
       {
         image: "images/pdc.png",
