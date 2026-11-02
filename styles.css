@@ -608,9 +608,6 @@ footer { background: var(--primary-dark); padding: 50px 30px; text-align: center
 .skill-bar { height: 3px; background: rgba(255, 255, 255, 0.08); border-radius: 30px; overflow: hidden; }
 .skill-fill { width: 0; height: 100%; border-radius: 30px; background: linear-gradient(90deg, var(--accent-deep), var(--accent-color)); transition: width 1.4s cubic-bezier(0.23, 1, 0.32, 1); }
 
-.cv-download-btn { display: inline-block; margin-top: 56px; padding: 16px 38px; background: transparent; border: 1px solid var(--accent-color); color: var(--text-light); text-decoration: none; letter-spacing: 1.2px; font-weight: 500; font-size: 13px; text-transform: uppercase; border-radius: 999px; transition: all 0.35s ease; }
-.cv-download-btn:hover { background: var(--accent-color); color: var(--primary-dark); }
-
 /* =========================
    PROJECT MODAL
 ========================= */
