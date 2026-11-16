@@ -350,6 +350,25 @@ const projectsData = [
     ]
   }
 
+  {
+  title: "LAEP – La Maisonnette",
+  category: "Print & communication",
+  mainCategory: "graphique",
+  image: "images/LAEP1.png",
+  description: "Dans le cadre de mon expérience à la Communauté de Communes d'Alsace Bossue, j'ai collaboré avec la responsable du service petite enfance à la conception graphique du dépliant de présentation du Lieu d'Accueil Enfants-Parents (LAEP). J'ai participé à la création d'un support de communication destiné à informer les familles sur le dispositif, ses modalités d'accueil, ses lieux de permanence et les activités proposées.",
+  meta: [
+    { label: "Année", value: "2025" },
+    { label: "Client", value: "CC Alsace Bossue – Service petite enfance" },
+    { label: "Format", value: "Dépliant 2 pages" },
+    { label: "Collaboration", value: "Responsable petite enfance" }
+  ],
+  tags: ["Création graphique", "Print", "Mise en page", "Petite enfance"],
+  gallery: [
+    "images/LAEP1.png",
+    "images/LAEP2.png"
+  ]
+},
+
 ];
 
 
