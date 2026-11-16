@@ -348,7 +348,7 @@ const projectsData = [
       { image: "images/facebook.jpg", link: "https://www.instagram.com/reel/DYeQrtMNGlM/" },
       { image: "images/insta.jpg", link: "https://www.facebook.com/armeeszne/posts/pfbid02U9erveHBoWzp8Z8CQVFj5Aq9GSWH3cZvDiAgKTihENz6eoVAJofn9jfw24pxLyfvl?locale=fr_FR" }
     ]
-  }
+  },
 
   {
   title: "LAEP – La Maisonnette",
